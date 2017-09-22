@@ -20,10 +20,6 @@ import bohnenspiel.BohnenspielMove.MoveType;
 /** A Bohnenspiel player submitted by a student. */
 public class StudentPlayer extends BohnenspielPlayer {
 
-    /** You must modify this constructor to return your student number.
-     * This is important, because this is what the code that runs the
-     * competition uses to associate you with your agent.
-     * The constructor should do nothing else. */
     public StudentPlayer() { super("260633352"); }
     
     private int eval(BohnenspielBoardState board_state, int turn) {
